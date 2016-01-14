@@ -1,0 +1,14 @@
+{
+    "name" : "axn/laravel-dev-utils",
+    "description" : "Des utilitaires pour le développement.",
+    "homepage" : "https://bitbucket.org/axn/laravel-dev-utils",
+    "minimum-stability" : "stable",
+    "require" : {
+        "illuminate/support" : "^5.1"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Axn\\LaravelDevUtils\\" : "src/"
+        }
+    }
+}
