@@ -6,6 +6,10 @@ Route::group([
     'namespace'  => 'Axn\LaravelDevUtils'
 ], function()
 {
+    Route::get('/', [
+        'as'   => 'index',
+        'uses' => 'Controller@index'
+    ]);
 
     Route::group([
         'as'         => 'packages.',
