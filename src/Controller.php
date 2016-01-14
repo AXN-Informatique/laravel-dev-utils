@@ -8,6 +8,16 @@ use Axn\LaravelDevUtils\Packages;
 class Controller extends BaseController
 {
     /**
+     * Shows the index page.
+     *
+     * @return \Illuminate\View\View
+     */
+    public function packages()
+    {
+        return view('dev-utils::index');
+    }
+
+    /**
      * Shows the packages page.
      *
      * @return \Illuminate\View\View
