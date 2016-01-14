@@ -12,7 +12,7 @@ class Controller extends BaseController
      *
      * @return \Illuminate\View\View
      */
-    public function packages()
+    public function index()
     {
         return view('dev-utils::index');
     }
