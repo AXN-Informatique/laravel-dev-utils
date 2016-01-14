@@ -1,7 +1,7 @@
 <?php
 
 Route::group([
-    'as'         => 'dev-utils.',
+    'as'         => 'dev-utils:',
     'prefix'     => 'dev-utils',
     'namespace'  => 'Axn\LaravelDevUtils'
 ], function()
@@ -13,17 +13,17 @@ Route::group([
     ], function()
     {
         Route::get('/', [
-            'as'   => 'packages.index',
+            'as'   => 'index',
             'uses' => 'Controller@packages'
         ]);
 
             Route::get('/composer', [
-                'as'   => 'packages.composer',
+                'as'   => 'composer',
                 'uses' => 'Controller@packagesComposer'
             ]);
 
             Route::get('/bower', [
-                'as'   => 'packages.bower',
+                'as'   => 'bower',
                 'uses' => 'Controller@packagesBower'
             ]);
     });

@@ -5,8 +5,8 @@
 @section('content')
 
 <ul>
-    <li><a href="{{ route('docs.packages.composer') }}">Composer</a></li>
-    <li><a href="{{ route('docs.packages.bower') }}">Bower</a></li>
+    <li><a href="{{ route('dev-utils:packages.composer') }}">Composer</a></li>
+    <li><a href="{{ route('dev-utils:packages.bower') }}">Bower</a></li>
 </ul>
 
 @endsection

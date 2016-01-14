@@ -23,10 +23,15 @@ class ServiceProvider extends BaseServiceProvider
      */
     public function boot()
     {
+        // routes
         if (! $this->app->routesAreCached()) {
             require __DIR__ . '/routes.php';
         }
 
+        // breadcrumbs
+        require __DIR__ . '/breadcrumbs.php';
+
+        // views
         $this->loadViewsFrom(__DIR__ . '/../resources/views/', 'dev-utils');
 
         $this->publishes([
