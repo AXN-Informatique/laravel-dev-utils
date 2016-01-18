@@ -1,6 +1,13 @@
-# Laravel developpement utils
+# Laravel dev utils
 
-Des utilitaires pour le développement.
+Des utilitaires pour le développement en un seul package :
+
+* [CRUD Generator](https://bitbucket.org/axn/laravel-crud-generator)
+* [IDE Helper Generator](https://github.com/barryvdh/laravel-ide-helper)
+* [Debugbar](https://github.com/barryvdh/laravel-debugbar)
+* Des pages listant les packages externes installés
+
+---
 
 * [Installation](#markdown-header-installation)
 * [changelog](changelog.md) :arrow_upper_right:
