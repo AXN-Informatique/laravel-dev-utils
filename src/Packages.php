@@ -106,8 +106,7 @@ class Packages
 
     protected function getComposerRequiredDevPackages()
     {
-        $key = 'require-dev';
-        return $this->getComposerJsonContent()->$key;
+        return $this->getComposerJsonContent()->{'require-dev'};
     }
 
     protected function getComposerJsonContent()
@@ -116,13 +115,11 @@ class Packages
         {
             $composerFile = base_path('/composer.json');
 
-            if (file_exists($composerFile)) {
-                $this->composerJsonContent = json_decode(file_get_contents($composerFile));
+            if (!file_exists($composerFile)) {
+                throw new FileNotFoundException($composerFile);
             }
-            // exception is missing...
-            //else {
-            //     throw new NotFoundException('Impossible de lire le fichier composer.json');
-            //}
+
+            $this->composerJsonContent = json_decode(file_get_contents($composerFile));
         }
 
         return $this->composerJsonContent;
@@ -134,20 +131,19 @@ class Packages
 
         $composerLockFile = base_path('/composer.lock');
 
-        if (file_exists($composerLockFile))
-        {
-            $json = json_decode(file_get_contents($composerLockFile), true);
-
-            // pas très joli mais c'est le résultat d'une évolution des choses qui fait que partout ailleurs
-            // on as besoin d'un stdClass et que je n'ai pas réussi mieux que json_decode(json_encode(...))
-            // new stdClass($array) ne marche pas
-            // (object)$array ne marche pas non plus
-            $installedPackages = json_decode(json_encode(array_merge_recursive($json['packages'], $json['packages-dev'])));
+        if (!file_exists($composerLockFile)) {
+            throw new FileNotFoundException($composerLockFile);
         }
-        // exception is missing...
-        //else {
-        //   throw new NotFoundException('Impossible de lire le fichier composer.lock');
-        //}
+
+        $json = json_decode(file_get_contents($composerLockFile), true);
+
+        // pas très joli mais c'est le résultat d'une évolution des choses qui fait que partout ailleurs
+        // on as besoin d'un stdClass et que je n'ai pas réussi mieux que json_decode(json_encode(...))
+        // new stdClass($array) ne marche pas
+        // (object)$array ne marche pas non plus
+        $installedPackages = json_decode(json_encode(
+            array_merge_recursive($json['packages'], $json['packages-dev'])
+        ));
 
         return $installedPackages;
     }
@@ -158,13 +154,11 @@ class Packages
 
         $bowerFile = base_path('/bower.json');
 
-        if (file_exists($bowerFile)) {
-            $requiredPackages = json_decode(file_get_contents($bowerFile))->dependencies;
+        if (!file_exists($bowerFile)) {
+            throw new FileNotFoundException($bowerFile);
         }
-        // exception is missing...
-        //else {
-        //     throw new NotFoundException('Impossible de lire le fichier bower.json');
-        //}
+
+        $requiredPackages = json_decode(file_get_contents($bowerFile))->dependencies;
 
         return $requiredPackages;
     }
