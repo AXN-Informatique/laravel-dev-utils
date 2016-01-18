@@ -13,9 +13,9 @@ class ServiceProvider extends BaseServiceProvider
      * @var array
      */
     protected $providers = [
-        Axn\CrudGenerator\ServiceProvider::class,
-        Barryvdh\Debugbar\ServiceProvider::class,
-        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+        \Axn\CrudGenerator\ServiceProvider::class,
+        \Barryvdh\Debugbar\ServiceProvider::class,
+        \Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
     ];
 
     /**
@@ -24,7 +24,7 @@ class ServiceProvider extends BaseServiceProvider
      * @var array
      */
     protected $aliases = [
-        'Debugbar' => Barryvdh\Debugbar\Facade::class,
+        'Debugbar' => \Barryvdh\Debugbar\Facade::class,
     ];
 
     /**
