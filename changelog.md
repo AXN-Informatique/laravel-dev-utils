@@ -1,6 +1,12 @@
 CHANGELOG
 =========
 
+1.0.2
+-----
+
+- Update axn/laravel-crud-generator to ~2.1.0
+
+---
 
 1.0.1
 -----
