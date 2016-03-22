@@ -2,6 +2,10 @@
     "name" : "axn/laravel-dev-utils",
     "description" : "Des utilitaires pour le développement.",
     "homepage" : "https://bitbucket.org/axn/laravel-dev-utils",
+    "support" : {
+        "issues" : "https://bitbucket.org/axn/laravel-dev-utils/issues?status=new&status=open"
+    },
+    "license" : "MIT",
     "minimum-stability" : "stable",
     "require" : {
         "php" : ">=5.5.9",
@@ -14,10 +18,5 @@
         "psr-4" : {
             "Axn\\LaravelDevUtils\\" : "src/"
         }
-    },
-    "repositories" : [{
-            "type" : "vcs",
-            "url" : "git@bitbucket.org:axn/laravel-crud-generator.git"
-        }
-    ]
+    }
 }
