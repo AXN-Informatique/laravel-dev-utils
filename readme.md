@@ -24,6 +24,6 @@ composer require axn/laravel-dev-utils
 Après l'installation par Composer, ajouter le ServiceProvider au tableau de providers dans config/app.php
 
 ```
-'Axn\LaravelDevUtils\ServiceProvider',
+Axn\LaravelDevUtils\ServiceProvider::class,
 ```
 
