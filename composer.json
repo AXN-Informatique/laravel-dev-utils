@@ -5,6 +5,11 @@
     "support" : {
         "issues" : "https://bitbucket.org/axn/laravel-dev-utils/issues?status=new&status=open"
     },
+    "authors" : [{
+            "name" : "AXN Informatique",
+            "email" : "developpement@axn.fr"
+        }
+    ],
     "license" : "MIT",
     "minimum-stability" : "stable",
     "require" : {
