@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+1.1.0 (2016-05-13)
+------------------
+
+- Add axn/laravel-models-generator package
+
 1.0.4 (2016-03-23)
 ------------------
 

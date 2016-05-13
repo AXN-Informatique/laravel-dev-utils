@@ -3,6 +3,7 @@
 Des utilitaires pour le développement en un seul package :
 
 * [CRUD Generator](https://bitbucket.org/axn/laravel-crud-generator)
+* [Models Generator](https://bitbucket.org/axn/laravel-models-generator)
 * [IDE Helper Generator](https://github.com/barryvdh/laravel-ide-helper)
 * [Debugbar](https://github.com/barryvdh/laravel-debugbar)
 * Des pages listant les packages externes installés

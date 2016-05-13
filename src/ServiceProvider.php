@@ -14,6 +14,7 @@ class ServiceProvider extends BaseServiceProvider
      */
     protected $providers = [
         \Axn\CrudGenerator\ServiceProvider::class,
+        \Axn\ModelsGenerator\ServiceProvider::class,
         \Barryvdh\Debugbar\ServiceProvider::class,
         \Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
     ];
