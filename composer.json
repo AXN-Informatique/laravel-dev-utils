@@ -1,9 +1,9 @@
 {
     "name" : "axn/laravel-dev-utils",
     "description" : "Utilities for development with Laravel.",
-    "homepage" : "https://bitbucket.org/axn/laravel-dev-utils",
+    "homepage" : "https://github.com/AXN-Informatique/laravel-dev-utils",
     "support" : {
-        "issues" : "https://bitbucket.org/axn/laravel-dev-utils/issues?status=new&status=open"
+        "issues" : "https://github.com/AXN-Informatique/laravel-dev-utils/issues"
     },
     "authors" : [{
             "name" : "AXN Informatique",
