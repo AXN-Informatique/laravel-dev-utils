@@ -17,6 +17,7 @@ class ServiceProvider extends BaseServiceProvider
         \Axn\ModelsGenerator\ServiceProvider::class,
         \Barryvdh\Debugbar\ServiceProvider::class,
         \Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+        \Laravel\Tinker\TinkerServiceProvider::class,
     ];
 
     /**
