@@ -1,27 +1,31 @@
 Laravel dev utils
 =================
 
-Des utilitaires pour le développement en un seul package :
+Several useful packages for development in one package:
 
-* [CRUD Generator](https://github.com/AXN-Informatique/laravel-crud-generator)
-* [Models Generator](https://github.com/AXN-Informatique/laravel-models-generator)
+* [Tinker](https://github.com/laravel/tinker)
 * [IDE Helper Generator](https://github.com/barryvdh/laravel-ide-helper)
 * [Debugbar](https://github.com/barryvdh/laravel-debugbar)
-* Des pages listant les packages externes installés
-
+* [Interactive make command](https://github.com/laracademy/interactive-make)
+* [Laroute (simplified)](https://github.com/AXN-Informatique/laravel-laroute)
+* [CRUD Generator](https://github.com/AXN-Informatique/laravel-crud-generator)
+* [Models Generator](https://github.com/AXN-Informatique/laravel-models-generator)
+* Pages listing the installed external packages
 
 Installation
 ------------
 
-Inclure le package avec Composer :
+Install the package with Composer:
 
 ```sh
 composer require axn/laravel-dev-utils
 ```
 
-Après l'installation par Composer, ajouter le ServiceProvider au tableau de providers dans config/app.php
+Add the package service provider to your providers array in `config/app.php`:
 
 ```php
-Axn\LaravelDevUtils\ServiceProvider::class,
+'providers' => [
+    // ...
+    Axn\LaravelDevUtils\ServiceProvider::class,
+],
 ```
-

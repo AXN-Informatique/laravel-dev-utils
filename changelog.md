@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+2.2.0 (2017-05-29)
+------------------
+
+- Add laracademy/interactive-make package
+
 2.1.0 (2017-05-15)
 ------------------
 
