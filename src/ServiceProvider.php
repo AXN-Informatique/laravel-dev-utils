@@ -56,7 +56,8 @@ class ServiceProvider extends BaseServiceProvider
         }
 
         // breadcrumbs
-        require __DIR__ . '/breadcrumbs.php';
+        // HOT FIX : ceci fait planter les projets qui n'ont pas Breadcrumbs
+        //require __DIR__ . '/breadcrumbs.php';
 
         // views
         $this->loadViewsFrom(__DIR__ . '/../resources/views/', 'dev-utils');
