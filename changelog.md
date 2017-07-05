@@ -1,10 +1,23 @@
 CHANGELOG
 =========
 
+2.3.0 (2017-07-05)
+------------------
+
+- Add stronger constraints in composer.json
+- Update packages versions
+
+2.2.1 (2017-06-01)
+------------------
+
+- Breadcrumbs hot fix
+
 2.2.0 (2017-05-29)
 ------------------
 
-- Add laracademy/interactive-make package
+- Add axn/laroute package
+- Update barryvdh/laravel-debugbar to ~2.3.0
+- Update laracademy/interactive-make to ~1.0
 
 2.1.0 (2017-05-15)
 ------------------
@@ -40,7 +53,7 @@ CHANGELOG
 1.0.4 (2016-03-23)
 ------------------
 
-- Update laravel-debugbar to ~2.2.0
+- Update barryvdh/laravel-debugbar to ~2.2.0
 
 1.0.3 (2016-03-22)
 ------------------
