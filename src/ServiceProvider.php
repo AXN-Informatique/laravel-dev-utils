@@ -14,9 +14,7 @@ class ServiceProvider extends BaseServiceProvider
      */
     public function register()
     {
-        $this->registerProviders();
-
-        $this->registerAliases();
+        //..
     }
 
     /**
@@ -25,16 +23,6 @@ class ServiceProvider extends BaseServiceProvider
      * @return void
      */
     public function boot()
-    {
-        //..
-    }
-
-    /**
-     * Register providers.
-     *
-     * @return void
-     */
-    protected function registerProviders()
     {
         //..
     }
