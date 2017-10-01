@@ -1,6 +1,13 @@
 CHANGELOG
 =========
 
+3.0.0 (2017-10-01)
+------------------
+
+- Now behaves only as a meta-package for development purposes
+- Add Laravel 5.5.* support
+- Remove packages viewer
+
 2.3.0 (2017-07-05)
 ------------------
 

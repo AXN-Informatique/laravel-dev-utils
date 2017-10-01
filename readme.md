@@ -10,7 +10,6 @@ Several useful packages for development in one package:
 * [Laroute (simplified)](https://github.com/AXN-Informatique/laravel-laroute)
 * [CRUD Generator](https://github.com/AXN-Informatique/laravel-crud-generator)
 * [Models Generator](https://github.com/AXN-Informatique/laravel-models-generator)
-* Pages listing the installed external packages
 
 Installation
 ------------

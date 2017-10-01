@@ -8,30 +8,6 @@ use Illuminate\Foundation\AliasLoader;
 class ServiceProvider extends BaseServiceProvider
 {
     /**
-     * The providers to be registered.
-     *
-     * @var array
-     */
-    protected $providers = [
-        \Axn\CrudGenerator\ServiceProvider::class,
-        \Axn\Laroute\ServiceProvider::class,
-        \Axn\ModelsGenerator\ServiceProvider::class,
-        \Barryvdh\Debugbar\ServiceProvider::class,
-        \Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
-        \Laracademy\Commands\MakeServiceProvider::class,
-        \Laravel\Tinker\TinkerServiceProvider::class,
-    ];
-
-    /**
-     * The aliases to be registered.
-     *
-     * @var array
-     */
-    protected $aliases = [
-        'Debugbar' => \Barryvdh\Debugbar\Facade::class,
-    ];
-
-    /**
      * Register the application services.
      *
      * @return void
@@ -50,21 +26,7 @@ class ServiceProvider extends BaseServiceProvider
      */
     public function boot()
     {
-        // routes
-        if (!$this->app->routesAreCached()) {
-            require __DIR__ . '/routes.php';
-        }
-
-        // breadcrumbs
-        // HOT FIX : ceci fait planter les projets qui n'ont pas Breadcrumbs
-        //require __DIR__ . '/breadcrumbs.php';
-
-        // views
-        $this->loadViewsFrom(__DIR__ . '/../resources/views/', 'dev-utils');
-
-        $this->publishes([
-            __DIR__ . '/../resources/views/' => base_path('resources/views/vendor/dev-utils'),
-        ], 'dev-utils.views');
+        //..
     }
 
     /**
@@ -74,22 +36,6 @@ class ServiceProvider extends BaseServiceProvider
      */
     protected function registerProviders()
     {
-        foreach ($this->providers as $provider) {
-            $this->app->register($provider);
-        }
-    }
-
-    /**
-     * Register aliases.
-     *
-     * @return void
-     */
-    protected function registerAliases()
-    {
-        $loader = AliasLoader::getInstance();
-
-        foreach ($this->aliases as $class => $alias) {
-            $loader->alias($class, $alias);
-        }
+        //..
     }
 }
