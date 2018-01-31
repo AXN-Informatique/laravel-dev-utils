@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+2.4.0 (2018-01-31)
+------------------
+
+- Update axn/laravel-models-generator package (v4)
+
 2.3.0 (2017-07-05)
 ------------------
 
