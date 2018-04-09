@@ -14,7 +14,7 @@
     "require" : {
         "php" : ">=5.6.4",
         "illuminate/support" : "5.4.*",
-        "axn/laravel-crud-generator" : "~2.4.0",
+        "axn/laravel-crud-generator" : "~2.5.0",
         "axn/laravel-laroute": "~1.1.0",
         "axn/laravel-models-generator" : "~4.1",
         "barryvdh/laravel-debugbar" : "~2.4.0",
