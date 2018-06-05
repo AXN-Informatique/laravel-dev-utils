@@ -15,7 +15,7 @@
         "illuminate/support" : "5.4.*|5.5.*",
         "axn/laravel-crud-generator" : "~2.5.0",
         "axn/laravel-laroute": "~1.2.0",
-        "axn/laravel-models-generator" : "~4.1",
+        "axn/laravel-models-generator" : "~5.0",
         "barryvdh/laravel-debugbar" : "~3.0.0",
         "barryvdh/laravel-ide-helper" : "~2.4.0",
         "laracademy/interactive-make": "^1.1.0",
