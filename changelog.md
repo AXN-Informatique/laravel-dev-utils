@@ -1,6 +1,12 @@
 CHANGELOG
 =========
 
+3.4.0 (2018-07-12)
+------------------
+
+- Add beyondcode/laravel-dump-server package
+- Add phploc/phploc package
+
 3.3.0 (2018-07-04)
 ------------------
 

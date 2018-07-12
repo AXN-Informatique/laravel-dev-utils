@@ -10,6 +10,8 @@ Several useful packages for development in one package:
 * [Laroute (simplified)](https://github.com/AXN-Informatique/laravel-laroute)
 * [CRUD Generator](https://github.com/AXN-Informatique/laravel-crud-generator)
 * [Models Generator](https://github.com/AXN-Informatique/laravel-models-generator)
+* [Laravel Dump Server](https://github.com/beyondcode/laravel-dump-server)
+* [phploc](https://github.com/sebastianbergmann/phploc)
 
 Installation
 ------------
@@ -29,4 +31,14 @@ to the array of providers in `config/app.php`:
     // ...
     Axn\LaravelDevUtils\ServiceProvider::class,
 ],
+```
+
+
+## Volumetric Information
+
+To quickly measuring the size and analyzing the structure of a PHP project run,
+run the following command:
+
+```
+vendor\bin\phploc --exclude vendor --exclude node_modules --exclude bower_components --exclude _ide_helpers.php --exclude storage --exclude support .\
 ```
