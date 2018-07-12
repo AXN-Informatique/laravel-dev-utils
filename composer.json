@@ -1,32 +1,36 @@
 {
-    "name" : "axn/laravel-dev-utils",
-    "description" : "Utilities for development with Laravel.",
-    "homepage" : "https://github.com/AXN-Informatique/laravel-dev-utils",
-    "support" : {
-        "issues" : "https://github.com/AXN-Informatique/laravel-dev-utils/issues"
+    "name": "axn/laravel-dev-utils",
+    "description": "Utilities for development with Laravel.",
+    "homepage": "https://github.com/AXN-Informatique/laravel-dev-utils",
+    "support": {
+        "issues": "https://github.com/AXN-Informatique/laravel-dev-utils/issues"
     },
-    "authors" : [{
-            "name" : "AXN Informatique",
-            "email" : "developpement@axn.fr"
+    "authors": [
+        {
+            "name": "AXN Informatique",
+            "email": "developpement@axn.fr"
         }
     ],
-    "license" : "MIT",
-    "require" : {
-        "illuminate/support" : "5.6.*",
-        "axn/laravel-crud-generator" : "^2.7",
+    "license": "MIT",
+    "require": {
+        "illuminate/support": "5.6.*",
+        "axn/laravel-crud-generator": "^2.7",
         "axn/laravel-laroute": "^1.3",
-        "axn/laravel-models-generator" : "^5.1",
-        "barryvdh/laravel-debugbar" : "^3.1",
-        "barryvdh/laravel-ide-helper" : "^2.4",
-        "beyondcode/laravel-dump-server" : "^1.1",
+        "axn/laravel-models-generator": "^5.1",
+        "barryvdh/laravel-debugbar": "^3.1",
+        "barryvdh/laravel-ide-helper": "^2.4",
+        "beyondcode/laravel-dump-server": "^1.1",
         "laracademy/interactive-make": "^1.2",
         "laravel/tinker": "^1.0",
-        "phploc/phploc" : "^4.0"
+        "phploc/phploc": "^4.0"
     },
-    "autoload" : {
-        "psr-4" : {
-            "Axn\\LaravelDevUtils\\" : "src/"
-        }
+    "autoload": {
+        "psr-4": {
+            "Axn\\LaravelDevUtils\\": "src/"
+        },
+        "files": [
+            "src/bootstrap.php"
+        ]
     },
     "extra": {
         "laravel": {

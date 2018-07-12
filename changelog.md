@@ -7,6 +7,7 @@ CHANGELOG
 - Remove Laravel < 5.6 support
 - Add beyondcode/laravel-dump-server package
 - Add phploc/phploc package
+- Remplace Symfony Dumper by Laravel Dumper
 
 3.3.0 (2018-07-04)
 ------------------
