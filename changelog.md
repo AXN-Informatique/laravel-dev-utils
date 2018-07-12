@@ -1,9 +1,10 @@
 CHANGELOG
 =========
 
-3.4.0 (2018-07-12)
+4.0.0 (2018-07-12)
 ------------------
 
+- Remove Laravel < 5.6 support
 - Add beyondcode/laravel-dump-server package
 - Add phploc/phploc package
 
