@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+4.1.0 (2018-07-20)
+------------------
+
+- Add beyondcode/laravel-query-detector package
+
 4.0.0 (2018-07-12)
 ------------------
 
