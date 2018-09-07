@@ -13,6 +13,9 @@ Several useful packages for development in one package:
 * [Laravel Dump Server](https://github.com/beyondcode/laravel-dump-server)
 * [Laravel N+1 Query Detector](https://github.com/beyondcode/laravel-query-detector)
 * [phploc](https://github.com/sebastianbergmann/phploc)
+* [whoops](https://github.com/filp/whoops)
+* [faker](https://github.com/fzaninotto/faker)
+* [collision](https://github.com/nunomaduro/collision)
 
 Installation
 ------------

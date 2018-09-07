@@ -1,6 +1,14 @@
 CHANGELOG
 =========
 
+4.2.0 (2018-09-07)
+------------------
+
+- Add Laravel 5.7.* support
+- Add filp/whoops package
+- Add fzaninotto/faker package
+- Add nunomaduro/collision package
+
 4.1.0 (2018-07-20)
 ------------------
 
