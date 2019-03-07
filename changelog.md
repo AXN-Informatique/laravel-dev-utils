@@ -1,6 +1,12 @@
 CHANGELOG
 =========
 
+5.0.0 (2019-03-07)
+------------------
+
+- Add Laravel 5.8.* support
+- Remove axn/laravel-laroute package as long lord/laroute is not updated ; seriously consider using tightenco/ziggy for replacement
+
 4.2.0 (2018-09-07)
 ------------------
 
