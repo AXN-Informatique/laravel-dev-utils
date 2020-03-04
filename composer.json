@@ -13,7 +13,7 @@
     ],
     "license": "MIT",
     "require": {
-        "php": "^7.1",
+        "php": "^7.3",
         "illuminate/support": "^7.0",
         "axn/laravel-crud-generator": "^2.15",
         "axn/laravel-models-generator": "^6.1",
@@ -25,7 +25,7 @@
         "fzaninotto/faker": "^1.9",
         "laracademy/interactive-make": "^1.4",
         "nunomaduro/collision": "^4.1",
-        "phploc/phploc": "^4.0"
+        "phploc/phploc": "^6.0"
     },
     "autoload": {
         "psr-4": {
