@@ -1,6 +1,16 @@
 CHANGELOG
 =========
 
+7.0.0 (2020-03-04)
+------------------
+
+- Add support for Laravel 7
+- Drop support for Laravel 6 and older
+- Drop laravel/tinker as it should be included in the composer require section
+- Remove beyondcode/laravel-query-detector until it is updated for Laravel 7
+- Add facade/ignition package
+
+
 6.0.0 (2019-12-31)
 ------------------
 
