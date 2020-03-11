@@ -1,6 +1,12 @@
 CHANGELOG
 =========
 
+8.1.0 (2020-03-11)
+------------------
+
+- Restore beyondcode/laravel-query-detector
+
+
 8.0.0 (2020-03-04)
 ------------------
 
