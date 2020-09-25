@@ -14,7 +14,7 @@
     "license": "MIT",
     "require": {
         "php": "^7.3",
-        "illuminate/support": "^7.0",
+        "illuminate/support": "^7.0 || ^8.0",
         "axn/laravel-crud-generator": "^2.15",
         "axn/laravel-models-generator": "^6.1",
         "barryvdh/laravel-debugbar": "^3.2",
