@@ -10,7 +10,7 @@ Several useful packages for development in one package:
 * [CRUD Generator](https://github.com/AXN-Informatique/laravel-crud-generator)
 * [Models Generator](https://github.com/AXN-Informatique/laravel-models-generator)
 * [Laravel Dump Server](https://github.com/beyondcode/laravel-dump-server)
-* ~~[Laravel N+1 Query Detector](https://github.com/beyondcode/laravel-query-detector)~~
+* [Laravel N+1 Query Detector](https://github.com/beyondcode/laravel-query-detector)
 * [phploc](https://github.com/sebastianbergmann/phploc)
 * [Ignition](https://github.com/facade/ignition)
 * [whoops](https://github.com/filp/whoops)

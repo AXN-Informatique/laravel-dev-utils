@@ -19,14 +19,13 @@
         "axn/laravel-models-generator": "^6.1",
         "barryvdh/laravel-debugbar": "^3.2",
         "barryvdh/laravel-ide-helper": "^2.6",
-        "beyondcode/laravel-dump-server": "^1.4",
-        "beyondcode/laravel-query-detector": "^1.2",
-        "facade/ignition": "^2.0",
-        "filp/whoops": "^2.7",
+        "beyondcode/laravel-dump-server": "^1.5",
+        "beyondcode/laravel-query-detector": "^1.4",
+        "facade/ignition": "^2.3",
         "fzaninotto/faker": "^1.9",
-        "laracademy/interactive-make": "^1.4",
-        "nunomaduro/collision": "^4.1",
-        "phploc/phploc": "^6.0"
+        "laracademy/interactive-make": "^1.6",
+        "nunomaduro/collision": "^5.0",
+        "phploc/phploc": "^7.0"
     },
     "autoload": {
         "psr-4": {
