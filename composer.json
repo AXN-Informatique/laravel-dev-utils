@@ -22,7 +22,7 @@
         "beyondcode/laravel-dump-server": "^1.5",
         "beyondcode/laravel-query-detector": "^1.4",
         "facade/ignition": "^2.3",
-        "fzaninotto/faker": "^1.9",
+        "fakerphp/faker": "^1.10",
         "laracademy/interactive-make": "^1.6",
         "nunomaduro/collision": "^5.0",
         "phploc/phploc": "^7.0"

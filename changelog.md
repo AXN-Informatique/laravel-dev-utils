@@ -1,6 +1,12 @@
 CHANGELOG
 =========
 
+8.3.0 (2020-11-10)
+------------------
+
+- Replace fzaninotto/faker by fakerphp/faker
+
+
 8.2.1 (2020-09-25)
 ------------------
 

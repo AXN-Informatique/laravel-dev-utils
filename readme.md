@@ -14,7 +14,7 @@ Several useful packages for development in one package:
 * [phploc](https://github.com/sebastianbergmann/phploc)
 * [Ignition](https://github.com/facade/ignition)
 * [whoops](https://github.com/filp/whoops)
-* [faker](https://github.com/fzaninotto/faker)
+* [faker](https://github.com/fakerphp/faker)
 * [collision](https://github.com/nunomaduro/collision)
 
 Installation
