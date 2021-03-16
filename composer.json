@@ -32,7 +32,6 @@
             "Axn\\LaravelDevUtils\\": "src/"
         },
         "files": [
-            "src/bootstrap.php"
         ]
     },
     "extra": {
