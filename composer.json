@@ -13,7 +13,7 @@
     ],
     "license": "MIT",
     "require": {
-        "php": "^7.3",
+        "php": "^7.4|^8.0",
         "illuminate/support": "^7.0 || ^8.0",
         "axn/laravel-crud-generator": "^3.0",
         "axn/laravel-models-generator": "^6.2",
