@@ -1,3 +1,8 @@
+**DEPRECATED** : please install packages individually
+
+---
+
+
 Laravel dev utils
 =================
 
