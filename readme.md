@@ -1,4 +1,7 @@
-**DEPRECATED** : please install packages individually
+> **Warning**
+>
+>**DEPRECATED** please install these packages individually
+>
 
 ---
 
